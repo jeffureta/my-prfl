@@ -1,4 +1,4 @@
-import { iconsColorPrimary, iconsColorSecondary } from "./_variables.js";
+import { iconsColorPrimary, iconsColorSecondary } from "./variables.js";
 
 export const hoverOverlay = () => {
     return $(document).ready(function() {

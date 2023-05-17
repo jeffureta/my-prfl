@@ -1,8 +1,8 @@
 import { wrapperColor, overlayColor,
         iconsColorPrimary, 
-        iconsColorSecondary} from "./_variables.js"
-import { hoverOverlay, hoverIcons } from "./_hover.js"   
-import { flexCenter } from "./_flexcenter.js"     
+        iconsColorSecondary} from "./variables.js"
+import { hoverOverlay, hoverIcons } from "./hover.js"   
+import { flexCenter } from "./flexcenter.js"     
 
 $(function(){
     $(".wrapper").css(
