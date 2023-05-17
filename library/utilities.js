@@ -9,7 +9,7 @@ export class Profile {
         const socialMediaLinks = Object.entries(links)
             .map(([key,value]) => `<li><a href="${value}" target="_blank"><i class="fa fa-${key}"></i></a></li>`)
             .join("");
-        console.log(socialMediaLinks);
+        // console.log(socialMediaLinks);
         return $("<div>").addClass("profile")
         .css(
             {
